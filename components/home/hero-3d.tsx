@@ -319,9 +319,9 @@ export function Hero3D() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="font-montserrat font-black text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight drop-shadow-2xl"
+                        className="font-montserrat font-black text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight drop-shadow-2xl"
                     >
-                        <span className="block whitespace-nowrap">
+                        <span className="block whitespace-normal md:whitespace-nowrap">
                             Conectando <span className="text-[#FF6B00] italic">Talento Joven</span>
                         </span>
                         <span className="block">
@@ -332,7 +332,7 @@ export function Hero3D() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="font-montserrat font-light text-lg md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed mb-10"
+                        className="font-montserrat font-light text-base sm:text-lg md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed mb-10"
                     >
                         La plataforma líder que transforma proyectos académicos en experiencias profesionales reales. Encuentra tu
                         primer empleo demostrando lo que sabes hacer.
@@ -347,7 +347,7 @@ export function Hero3D() {
                             onClick={handleHeroAction}
                             className={`
                                 ${isLoggedIn ? 'bg-transparent border-2 border-[#FF6B00] hover:bg-[#FF6B00]' : 'bg-[#FF6B00] hover:bg-[#ff8533]'}
-                                text-white rounded-full px-12 py-4 text-xl font-bold 
+                                text-white rounded-full px-8 py-3 text-lg md:px-12 md:py-4 md:text-xl font-bold 
                                 shadow-[0_0_25px_rgba(255,107,0,0.4)] hover:shadow-[0_0_40px_rgba(255,107,0,0.6)]
                                 hover:scale-105 hover:-translate-y-1 transition-all duration-300 uppercase tracking-wider
                             `}
